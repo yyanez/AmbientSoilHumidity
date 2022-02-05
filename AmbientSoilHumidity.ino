@@ -32,7 +32,7 @@ DHT dht = DHT(DHT_PIN, DHT_TYPE);
 void setup() {
   // Begin serial communication at a baud rate of 9600:
   Serial.begin(9600);
-  Serial.println("System Started");
+  //Serial.println("System Started");
   // Setup sensor:
   dht.begin();
 }
